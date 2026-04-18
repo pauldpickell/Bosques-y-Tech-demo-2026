@@ -1,0 +1,38 @@
+---
+title: "'Ready Player One': Playing LiDAR with an immersive open source video game"
+output: html_document
+date: "2026-04-18"
+---
+
+# Join the Multicraft Server
+
+This page will help you join our remote Multicraft world.
+
+------------------------------------------------------------------------
+
+## Step 1 — Install the app
+
+### [iOS](https://apps.apple.com/us/app/multicraft-build-and-mine/id1174039276)
+
+### [Android](https://play.google.com/store/apps/details?id=com.multicraft.game&hl=en)
+
+------------------------------------------------------------------------
+
+## Step 2 — Join the server
+
+Open the Multicraft app and:
+
+-   Tap **"Multiplayer"**
+-   Copy the server address below and paste it into **"Invite Code"**
+
+``` md
+206-12-122-94.cloud.computecanada.ca:30000
+```
+
+-   Choose a name for your player
+-   Choose a password
+-   Tap **Play**
+-   You will be prompted to connect to the server then re-enter your password
+-   Wait for the game assets to download to your device before you can play
+
+------------------------------------------------------------------------
