@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-04-18">
+<meta name="dcterms.date" content="2026-04-28">
 
 <title>‘Ready Player One’: Playing LiDAR with an immersive open source video game</title>
 <style>
@@ -91,7 +91,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 18, 2026</p>
+      <p class="date">April 28, 2026</p>
     </div>
   </div>
   
@@ -105,15 +105,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="join-the-multicraft-server" class="level1">
 <h1>Join the Multicraft Server</h1>
-<p>This page will help you join our remote Multicraft world.</p>
+<p>This page will help you join and play our remote Multicraft world.</p>
 <hr>
 <section id="step-1-install-the-app" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-install-the-app">Step 1 — Install the app</h2>
-<section id="ios" class="level3">
-<h3 class="anchored" data-anchor-id="ios"><a href="https://apps.apple.com/us/app/multicraft-build-and-mine/id1174039276">iOS</a></h3>
+<section id="ios-119-mb" class="level3">
+<h3 class="anchored" data-anchor-id="ios-119-mb"><a href="https://apps.apple.com/us/app/multicraft-build-and-mine/id1174039276">iOS</a> (~119 MB)</h3>
 </section>
-<section id="android" class="level3">
-<h3 class="anchored" data-anchor-id="android"><a href="https://play.google.com/store/apps/details?id=com.multicraft.game&amp;hl=en">Android</a></h3>
+<section id="android-55-mb" class="level3">
+<h3 class="anchored" data-anchor-id="android-55-mb"><a href="https://play.google.com/store/apps/details?id=com.multicraft.game&amp;hl=en">Android</a> (~55 MB)</h3>
 <hr>
 </section>
 </section>
@@ -125,15 +125,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Copy the server address below and paste it into <strong>“Invite Code”</strong></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>206-12-122-94.cloud.computecanada.ca:30000</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><img src="images/server-details.PNG" class="img-fluid"></p>
 <ul>
-<li>Choose a name for your player</li>
-<li>Choose a password</li>
-<li>Tap <strong>Play</strong></li>
-<li>You will be prompted to connect to the server then re-enter your password</li>
-<li>Wait for the game assets to download to your device before you can play</li>
+<li>Enter a name for your player</li>
+<li>Enter a password</li>
+<li>Tap “<strong>Play”</strong></li>
+<li>You may be shown some advertisements, then you will be prompted to connect to the server and re-enter your password, then click <strong>“Connect”</strong></li>
 </ul>
+<p><img src="images/connect-server.PNG" class="img-fluid"></p>
+<ul>
+<li>Wait for the game assets <strong>(~78 MB)</strong> to download automatically to your device before you can play</li>
+</ul>
+<p><img src="images/joining-server-01.PNG" class="img-fluid"></p>
 <hr>
 </section>
+</section>
+<section id="play-the-server" class="level1">
+<h1>Play the server</h1>
+<p>When you arrive in the multiplayer game, you will see a forest.</p>
+<p><img src="images/landing.PNG" class="img-fluid"></p>
+<p>The forest and the ground are generated from a laser scan (LiDAR) at UBC’s Maclolm Knapp Research Forest in Canada. The game shows visualizations of the 3D point cloud that have been voxelized to approximately 1 cubic meter using different attributes from the laser scan. The first world shows the classification codes of the laser scan, where the ground returns have been interpolated into a continuous digital elevation model using inverse distance weighting and the tree stems have been proceedurally produced using a maximum height filter on a canopy height model.</p>
+<p>You can pan around with the game pad on the right and move your character along the horizontal plane with the game pad on the left.</p>
+<p>The A button does nothing.</p>
+<p><strong>To jump/fly:</strong> tap grey button below A to jump, holding it will make you fly up, double tapping it will toggle on/off fly mode.</p>
+<p><strong>To fly down:</strong> hold the down-ward pointing arrow button below the grey button.</p>
+<p>Pressing the three horizontal bars at the top of the screen allows you to toggle different abilities, including fly and fast. You can also select “Range select” here to increase how far you can see in the game world.</p>
+<p><img src="images/toggles.PNG" class="img-fluid"></p>
+<p>The tool that you are wielding is the Student Notebook. Press and hold somewhere on your screen that is not a button to open it. It is not formatted with mobile gaming in mind, sorry! Click <strong>“Classrooms”</strong> to view the other worlds that you can teleport to. Most of these are examples of the same laser scanned forest, but different attributes like point density, scan angle, intensity, and a version where we have colorized the laser scan using an orthophoto from the same date. The other options in the Student Notebook can be explored more easily in a desktop environment with Multicraft or Luanti software. Click the little x in the top left to close the student notebook.</p>
+<p><strong>To exit:</strong> press the two vertical bars at the top and select <strong>“Exit to main menu”</strong>.</p>
+<p>Enjoy!</p>
+<p><video src="images/output.mp4" class="img-fluid" controls=""><a href="images/output.mp4">Video</a></video></p>
 </section>
 
 </main>
